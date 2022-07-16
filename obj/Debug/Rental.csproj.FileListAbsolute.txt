@@ -1,0 +1,8 @@
+C:\Users\dangoth\Desktop\Rental\Rental\bin\Debug\Rental.exe.config
+C:\Users\dangoth\Desktop\Rental\Rental\bin\Debug\Rental.exe
+C:\Users\dangoth\Desktop\Rental\Rental\bin\Debug\Rental.pdb
+C:\Users\dangoth\Desktop\Rental\Rental\obj\Debug\Rental.csproj.AssemblyReference.cache
+C:\Users\dangoth\Desktop\Rental\Rental\obj\Debug\Rental.csproj.SuggestedBindingRedirects.cache
+C:\Users\dangoth\Desktop\Rental\Rental\obj\Debug\Rental.csproj.CoreCompileInputs.cache
+C:\Users\dangoth\Desktop\Rental\Rental\obj\Debug\Rental.exe
+C:\Users\dangoth\Desktop\Rental\Rental\obj\Debug\Rental.pdb
