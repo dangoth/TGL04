@@ -45,11 +45,17 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rentables\Book.cs" />
+    <Compile Include="Rentables\EBook.cs" />
+    <Compile Include="Rentables\PaperBook.cs" />
+    <Compile Include="Rentables\Movie.cs" />
+    <Compile Include="Rentables\MovieCasette.cs" />
+    <Compile Include="Rentables\Music.cs" />
     <Compile Include="Rentables\MusicCasette.cs" />
     <Compile Include="Rentables\MovieDvd.cs" />
     <Compile Include="Rentables\MusicCd.cs" />
-    <Compile Include="Rentables\IRentable.cs" />
+    <Compile Include="Rentables\Rentable.cs" />
+    <Compile Include="Rentables\RentableCollection.cs" />
+    <Compile Include="Rentables\Text.cs" />
     <Compile Include="Services\MailService.cs" />
     <Compile Include="Services\RentalService.cs" />
     <Compile Include="Users\Customer.cs" />

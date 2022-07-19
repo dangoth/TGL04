@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Rental.Rentables
+﻿namespace Rental.Rentables
 {
-    public class MusicCd : IRentable
+    public class MusicCd : Music
     {
-        public MusicCd(string name, double rentPrice, int releaseYear, string genre, int stock, string artist, string duration)
+        public MusicCd(string name, double rentPrice, int releaseYear, string genre, int stock, string artist, decimal duration)
         {
             Name = name;
             RentPrice = rentPrice;
@@ -18,19 +12,13 @@ namespace Rental.Rentables
             Artist = artist;
             Duration = duration;
         }
-
-        public string Name { get; }
-
-        public double RentPrice { get; }
-        public int ReleaseYear { get; }
-        public string Genre { get; }
-        public int Stock { get; set; }
-        public string Artist { get; }
-        public string Duration { get; }
-
+        public override void Listen()
+        {
+            System.Console.WriteLine($"Playing a music CD {Name}");
+        }
         public override string ToString()
         {
-            return base.ToString() + ": " + Name;
+            return $"Music CD: {base.ToString()}";
         }
     }
 }

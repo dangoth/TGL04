@@ -1,35 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Rental.Rentables
 {
-    public class MovieDvd : IRentable
+    public class MovieDvd : Movie
     {
-        public MovieDvd(string name, int releaseYear, double rentPrice, int stock, string genre, double rating)
+        public MovieDvd(string name, int releaseYear, double rentPrice, string genre, string mainActor, int stock)
         {
             Name = name;
             ReleaseYear = releaseYear;
             RentPrice = rentPrice;
-            Stock = stock;
             Genre = genre;
-            Rating = rating;
+            MainActor = mainActor;
+            Stock = stock;
         }
-
-        public string Name { get; }
-
-        public int ReleaseYear { get; }
-
-        public double RentPrice { get; }
-        public int Stock { get; set; }
-        public string Genre { get; }
-        public double Rating { get; }
-
+        public override void PlayMovie()
+        {
+            Console.WriteLine($"Playing a DVD movie {Name}");
+        }
         public override string ToString()
         {
-            return base.ToString() + ": " + Name;
+            return $"Movie DVD: {base.ToString()}";
         }
     }
 }

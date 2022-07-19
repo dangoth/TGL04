@@ -6,3 +6,11 @@ C:\Users\dangoth\Desktop\Rental\Rental\obj\Debug\Rental.csproj.SuggestedBindingR
 C:\Users\dangoth\Desktop\Rental\Rental\obj\Debug\Rental.csproj.CoreCompileInputs.cache
 C:\Users\dangoth\Desktop\Rental\Rental\obj\Debug\Rental.exe
 C:\Users\dangoth\Desktop\Rental\Rental\obj\Debug\Rental.pdb
+C:\Users\dangoth\desktop\TGL04\bin\Debug\Rental.exe.config
+C:\Users\dangoth\desktop\TGL04\bin\Debug\Rental.exe
+C:\Users\dangoth\desktop\TGL04\bin\Debug\Rental.pdb
+C:\Users\dangoth\desktop\TGL04\obj\Debug\Rental.csproj.AssemblyReference.cache
+C:\Users\dangoth\desktop\TGL04\obj\Debug\Rental.csproj.SuggestedBindingRedirects.cache
+C:\Users\dangoth\desktop\TGL04\obj\Debug\Rental.csproj.CoreCompileInputs.cache
+C:\Users\dangoth\desktop\TGL04\obj\Debug\Rental.exe
+C:\Users\dangoth\desktop\TGL04\obj\Debug\Rental.pdb
